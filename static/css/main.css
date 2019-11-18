@@ -1,0 +1,67 @@
+html, body {
+	font-family: "Raleway", Arial, sans-serif;
+	text-align: center;
+	color: #606060;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+a, a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-size: 18px;
+	font-weight: 100;
+}
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-size: 50px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 16px;
+	line-height: 1.7;
+}
+nav a {
+	padding: 16px;
+	background-color: white;
+	border: 1px solid #dbdbdb;
+	color: #606060;
+}
+nav a:hover {
+	background-color: #dbdbdb;
+}
+.active-btn {
+	background-color: #f44336b0;
+	color: #fff;
+	border: none;
+	padding: 17px;
+}
+.portfolio-img {
+	width: 100%;
+	height: auto;
+	margin: 10px 0;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+	            0 2px 2px rgba(0,0,0,0.08), 
+	            0 4px 4px rgba(0,0,0,0.08), 
+	            0 8px 8px rgba(0,0,0,0.08),
+	            0 16px 16px rgba(0,0,0,0.08);
+}
+.col-lg-6 {
+    padding: 0 10px;
+}
+.icon {
+	width: 60px; 
+	opacity: 0.5;
+	transition: transform 0.2s ease;
+}
+.icon:hover {
+    transform: scale(1.15);
+}
+
+
+
